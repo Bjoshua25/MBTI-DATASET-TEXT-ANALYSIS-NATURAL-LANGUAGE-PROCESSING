@@ -105,6 +105,7 @@ After preprocessing the text data, multiple machine learning classification mode
 - Feature engineering (e.g., TF-IDF tuning) plays a significant role in model accuracy.  
 - Further tuning and ensemble methods could improve classification performance.
 
+![](model_comparism.png)
 ---
 
 ## **CONCLUSION**  
