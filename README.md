@@ -1,5 +1,5 @@
-# **MBTI DATASET TEXT ANALYSIS | NATURAL LANGUAGE PROCESSING**  
-*Exploring Personality Traits Through Text Data*  
+# **MBTI DATASET TEXT ANALYSIS & PERSONALITY PREDICTION | NATURAL LANGUAGE PROCESSING**  
+*Exploring Personality Traits and Predicting MBTI Types Through Text Data*  
 
 ![](mbti_cover.png)
 
@@ -19,7 +19,7 @@ Personality traits influence **how people express themselves through language**.
 This project focuses on:  
 - **Processing text data** for personality analysis.  
 - **Extracting features from text** using NLP techniques.  
-- **Exploring personality distributions and common linguistic patterns.**  
+- **Training machine learning models to classify MBTI personality types.**   
 
 ---
 
@@ -27,7 +27,9 @@ This project focuses on:
 - **Text Preprocessing & Cleaning**  
 - **Feature Engineering (TF-IDF, Word Frequency Analysis)**  
 - **Exploratory Data Analysis (EDA)**  
-- **Data Visualization** (Word Cloud, Tokenization, N-Grams)  
+- **Data Visualization** (Word Cloud, Tokenization, N-Grams)
+- **Machine Learning Classification Models**  
+- **Model Performance Evaluation**  
 
 ---
 
@@ -81,6 +83,27 @@ EDA was performed to **understand personality type distributions** and linguisti
 ### **2. Word Frequency Analysis**  
 - **Word Cloud to visualize common words**:  
 - **Key Finding:** Certain words are frequently associated with specific personality types.  
+
+---
+
+## **MACHINE LEARNING CLASSIFICATION MODELS**  
+After preprocessing the text data, multiple machine learning classification models were trained to predict MBTI personality types.  
+
+### **1. Models Implemented**  
+- **Logistic Regression**  
+- **Random Forest Classifier**  
+- **Support Vector Machine (SVM)**  
+- **Gradient Boosting Classifier**  
+
+### **2. Model Evaluation Metrics**  
+- **Accuracy Score**  
+- **Precision, Recall, and F1-Score**  
+- **Confusion Matrix for model performance visualization**  
+
+### **3. Performance Insights**  
+- Some models perform better on certain personality types.  
+- Feature engineering (e.g., TF-IDF tuning) plays a significant role in model accuracy.  
+- Further tuning and ensemble methods could improve classification performance.
 
 ---
 
